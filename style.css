@@ -132,6 +132,7 @@ figure {
     align-items: center;
     margin-bottom: 2em;
     height: 25vh;
+    
 }
 
 .section-4-content {
@@ -142,11 +143,19 @@ figure {
     font-size: 2.4em;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.section-4-left {
+    width: 75%;
 }
 
 .section-4 button {
     background: #3882f6;
     color: #f9faf8;
+    border-radius: 25%;
+    padding: 1em;
+    font-size: 1.5rem;
 }
 
 footer {
